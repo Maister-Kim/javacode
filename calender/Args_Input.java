@@ -89,8 +89,6 @@ public class Args_Input {
 			daysOfMonth = days[month-1];
 		}
 	    
-//	    daysOfMonth = monthDays;
-	    
 		for (int i = 1; i <= daysOfMonth; i++) 
 		{ 
 			if (i < 10) {
@@ -103,7 +101,7 @@ public class Args_Input {
 				System.out.println();
 				daysOfWeek = 0;
 			}
-		} // end for문
+		}
 	    
 	}
 }
