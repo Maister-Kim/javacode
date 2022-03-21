@@ -56,9 +56,25 @@ public class Args_Input {
 		
 		totalDays =  totalDays + 1;
 		
-		System.out.println(" " + year + "년 " + month + "월"); 
-	    System.out.println(" sun mon thu wed thr fri sat"); 
-	    System.out.println("------------------------------"); 
+		
+		// 4자리 년도가 아닐경우 앞에 0을 붙여서 네자리로 만듬
+		int max_num = 0;
+		
+		if(year / 10 == 0)
+			max_num = 3;
+		else if(year/10 > 0 && year/10 < 10)
+			max_num = 2;
+		else if(year/10 >= 10 && year/10 < 100)
+			max_num = 1;
+		
+		System.out.print("          ");
+		
+		for(int i=0;i<max_num;i++)
+			System.out.print("0");
+		
+	    System.out.println(year + "년 " + month + "월"); 
+	    System.out.println(" sun mon tue wed thu fri sat"); 
+	    System.out.println("-----------------------------"); 
 	    
 	    firstDay = totalDays % 7;
 	    
