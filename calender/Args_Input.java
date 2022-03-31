@@ -12,8 +12,8 @@ public class Args_Input {
 		{
 			System.out.println("변수가 맞지 않음");
 			System.out.println("임의로 2010년 1월로 입력");
-			args[0] = 2010;
-			args[1] = 1
+			year = 2010;
+			month = 1
 			return;
 		}
 		else
