@@ -11,7 +11,9 @@ public class Args_Input {
 		if(args.length != 2)
 		{
 			System.out.println("변수가 맞지 않음");
-			System.out.println("임의로 2015년 3월로 입력");
+			System.out.println("임의로 2010년 1월로 입력");
+			args[0] = 2010;
+			args[1] = 1
 			return;
 		}
 		else
