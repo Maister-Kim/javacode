@@ -14,7 +14,6 @@ public class Args_Input {
 			System.out.println("임의로 2010년 1월로 입력");
 			year = 2010;
 			month = 1
-			return;
 		}
 		else
 		{
