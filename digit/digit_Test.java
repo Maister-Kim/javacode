@@ -2,7 +2,7 @@ package digit;
 
 import java.util.Scanner;
 
-public class digit_Test {
+public class digit_Test { // 수정중
 
 	public static void main(String[] args) {
 
