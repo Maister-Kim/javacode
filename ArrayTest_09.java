@@ -49,59 +49,13 @@ public class ArrayTest_09 {
 			if(count == 10)
 			{
 				System.out.printf("\n%5d: ", 100);
-				starprint(frequency[count]);
+				
 			}
-			else if(count == 9)
+			else
 			{
-				System.out.printf("\n%5d ~ %5d: ", 90, 99);
-				starprint(frequency[count]);
+				System.out.printf("\n%3d ~ %3d: ", count * 10, count * 10 + 9);
 			}
-			else if(count == 8)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 80, 89);
-				starprint(frequency[count]);
-			}
-			else if(count == 7)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 70, 79);
-				starprint(frequency[count]);
-			}
-			else if(count == 6)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 60, 69);
-				starprint(frequency[count]);
-			}
-			else if(count == 5)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 50, 59);
-				starprint(frequency[count]);
-			}
-			else if(count == 4)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 40, 49);
-				starprint(frequency[count]);
-			}
-			else if(count == 3)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 30, 39);
-				starprint(frequency[count]);
-			}
-			else if(count == 2)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 20, 29);
-				starprint(frequency[count]);
-			}
-			else if(count == 1)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 10, 19);
-				starprint(frequency[count]);
-			}
-			else if(count == 0)
-			{
-				System.out.printf("\n%5d ~ %5d: ", 0, 9);
-				starprint(frequency[count]);
-			}
+			starprint(frequency[count]);
 		}
-		
 	}
 }
