@@ -144,7 +144,7 @@ public class Dao {
 		return bool;
 	}
 
-	// 모든 투어 리스트 표시
+	// 회원가입
 	public void registerService(MemeberVo vo) {
 		try {
 			String sql = "insert into member values(?,?,?,?,?)";
